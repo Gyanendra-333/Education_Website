@@ -25,3 +25,42 @@ h6 {
     font-size: 1.1rem;
     color: rgb(24, 24, 49);
 }
+
+/* Navigation */
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw 6vw;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+nav img {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .navigation ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    color: rgb(2, 116, 223);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover {
+    color: rgb(9, 238, 105);
+}
