@@ -29,6 +29,9 @@ h6 {
 /* Navigation */
 
 nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(194 225 233);
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -40,6 +43,7 @@ nav {
 nav img {
     width: 150px;
     cursor: pointer;
+    border-radius: 80px;
 }
 
 nav .navigation ul {
@@ -55,12 +59,77 @@ nav .navigation ul li {
 
 nav .navigation ul li a {
     text-decoration: none;
-    color: rgb(2, 116, 223);
-    font-size: 16px;
-    font-weight: 500;
+    color: rgb(20 31 66);
+    font-size: 22px;
+    font-weight: 600;
     transition: 0.3s ease;
 }
 
 nav .navigation ul li a:hover {
-    color: rgb(9, 238, 105);
+    color: rgb(8, 193, 85);
+}
+
+/* Home */
+
+#home {
+    background-image: linear-gradient(rgba(9, 9, 54, 0.4), rgba(5, 4, 54, 0.7)), url("home/img-home.jpeg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+}
+
+#home h2 {
+    color: aliceblue;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+#home p {
+    width: 50%;
+    color: aliceblue;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+#home .btn {
+    margin-top: 30px;
+}
+
+#home a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 36px;
+    background-color: rgb(77, 222, 184);
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 6px;
+}
+
+#home a.blue {
+    color: aliceblue;
+    background: rgb(148 119 14);
+    transition: 0.3s ease;
+}
+
+#home a.blue:hover {
+    color: aliceblue;
+    background: rgba(72, 5, 242, 0.3);
+}
+
+#home a.yellow {
+    color: aliceblue;
+    background: rgb(68 153 11);
+    transition: 0.3s ease;
+}
+
+#home a.yellow:hover {
+    color: aliceblue;
+    background: rgba(72, 5, 242, 0.3);
 }
