@@ -133,3 +133,41 @@ nav .navigation ul li a:hover {
     color: aliceblue;
     background: rgba(72, 5, 242, 0.3);
 }
+
+/* features */
+
+#features {
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#features .fea-base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#features .fea-box {
+    background-color: rgb(194 225 233);
+    text-align: start;
+    padding: 14px;
+}
+
+#features .fea-box i {
+    font-size: 2.3rem;
+    color: rgb(23 33 69);
+}
+
+#features .fea-box h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(23 33 69);
+    padding: 13px 0 7px 0;
+}
+
+#features .fea-box p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(23 33 69);
+}
