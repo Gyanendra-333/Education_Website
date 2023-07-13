@@ -332,3 +332,91 @@ nav .navigation ul li a:hover {
     background: #161e42;
     color: aliceblue;
 }
+
+/* Footer */
+
+footer {
+    padding: 8vw 6vw;
+    background-color: rgba(5, 81, 100, 0.98);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-col {
+    padding-bottom: 40px;
+}
+
+footer h3 {
+    color: #ffd600;
+    font-weight: 600;
+    padding-bottom: 26px;
+}
+
+footer li {
+    list-style: none;
+    color: aliceblue;
+    padding: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer li:hover {
+    color: #ffd600;
+}
+
+footer .subscribe {
+    margin-top: 20px;
+}
+
+footer input {
+    width: 262px;
+    padding: 16px 8px;
+    background: #c2e1e9;
+    border-radius: 10px;
+    color: #050819;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .footer-btn {
+    background-color: #a51b07;
+    padding: 8px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+footer .footer-btn:hover {
+    background-color: #2b901b;
+}
+
+footer .copyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+footer .copyright span {
+    color: #ffd600;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+footer .copyright span:hover {
+    color: #09f509;
+}
+
+footer .copyright .pro-links i {
+    background-color: rgb(6 56 68);
+    margin: 30px 8px;
+}
+
+footer .copyright .pro-links i:hover {
+    background-color: red;
+}
