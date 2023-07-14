@@ -80,6 +80,8 @@ nav .navigation ul li a {
     transition: 0.3s ease;
 }
 
+nav .navigation ul li a.active,
+
 nav .navigation ul li a:hover {
     color: rgb(8, 193, 85);
 }
@@ -308,7 +310,7 @@ nav .navigation ul li a:hover {
 }
 
 #registration .form .btn-form:hover {
-    background-color: rgb(158, 161, 75);
+    background-color: #c50303;
 }
 
 /* Profiles */
