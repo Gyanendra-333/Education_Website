@@ -42,7 +42,7 @@ nav {
 }
 
 nav img {
-    width: 150px;
+    width: 80px;
     cursor: pointer;
     border-radius: 80px;
 }
@@ -473,6 +473,28 @@ footer .copyright .pro-links i:hover {
 #about-container .about-text {
     width: 40%;
     padding: 60px;
+}
+
+#about-container .about-text h2 {
+    color: rgb(20 31 66);
+    padding-bottom: 14px;
+}
+
+#about-container .about-text p {
+    color: rgb(20 31 66);
+    font-weight: 500;
+}
+
+#about-container .about-text .about-fe {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#about-container .about-text .about-fe img {
+    width: 50px;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Responsive */
