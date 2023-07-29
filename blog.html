@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Education</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <img src="logo/logo-02.jpg" alt="image-logo">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="home/menu.png" alt="#" />
+        </div>
+    </nav>
+
+    <!-- Home  -->
+
+    <section id="about-home">
+        <h2>Blog of Future University !</h2>
+    </section>
+
+    <!-- Blog -->
+
+    <section id="blog-container">
+        <div class="blogs">
+            <div class="post">
+                <img src="about/blog-01.png" alt="#">
+                <h3>Learn Web Development in the Easiest way. </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quisquam consequatur repudiandae,
+                    asperiores quis omnis maxime? Sequi, eaque nobis velit laudantium architecto porro, molestiae
+                    officiis itaque eum fugiat harum? Atque nostrum amet nesciunt possimus nemo? Dignissimos praesentium
+                    eveniet vitae id fugiat fuga cum molestias iure, ullam earum mollitia nesciunt possimus!</p>
+                <a href="#">Read more...</a>
+            </div>
+        </div>
+
+        <div class="cate">
+            <h2>Categories .</h2>
+            <hr>
+            <a href="#">Web Development</a>
+            <hr>
+            <a href="#">Web Design </a>
+            <hr>
+            <a href="#">App Development</a>
+            <hr>
+            <a href="#">Frontend Development</a>
+            <hr>
+            <a href="#">Python Programming</a>
+            <hr>
+            <a href="#">JavaScript Hack</a>
+            <hr>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Enter Email Here">
+                <button class="footer-btn">SUBSCRIBE</button>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy;&nbsp;copyright 2023 <span>&nbsp;&nbsp;www.gyanendra_world.com</span>
+                |&nbsp;&nbsp;All rights reserved |&nbsp;&nbsp;This Website is made by
+                <span>&nbsp;&nbsp;Gyanendra Prakash .</span>
+            </p>
+            <div class="pro-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+
+</html>
